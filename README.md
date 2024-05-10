@@ -7,3 +7,5 @@
   <li>Having hover effects </li>
   <li>Beautiful and Interactive card designs</li>
 </ul>
+
+<img src="https://github.com/BalrajSingh47/Animated_Cards/blob/main/Images/Animated%20cards.JPG" alt="Image is under process">
