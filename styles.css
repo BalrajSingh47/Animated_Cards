@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: roboto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.cards-main-heading{
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0;
+    color: white;
+    background-color: rgb(37, 124, 124);
+
+}
+.card{
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 0 1px 0 rgb(0, 0, 0);
+    margin: 1em;
+}
+.card1{
+    background-color: rgb(82, 82, 82);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card1 .header h3{
+    color: white;
+    margin-bottom: .5em;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section .image{
+    width: 120px;
+    height: 130px;
+}
+.section .image:hover{
+}
+.card1-image{
+    width: 100%;
+    height: 100%;
+    transition: transform .15s;
+}
+.card1-image:hover{
+    transform: scale(1.02);
+}
+.section .friend-name{
+    color: white;
+    margin-top: .15em;
+    margin-bottom: .5em;
+}
+.footer{
+    margin: .2em;
+}
+.btn{
+    padding: .5em .8em;
+    font-size: .7em;
+}
+.Accept{
+    background-color: rgb(53, 145, 53);
+    border: none;
+    color: white;
+}
+.Decline{
+    background-color: rgb(172, 53, 53);
+    border: none;
+    color: white;
+}
+.btn:hover,.btn:focus{
+    background-color: rgb(141, 141, 141);
+    color: rgb(21, 21, 21);
+}
+
+
+.card2{
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 0 1px 0 rgb(0, 0, 0);
+    overflow: hidden;
+}
+.card2:hover{
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+    transition: .15s;
+}
+.card2 .card2-img{
+    width: 100%;
+    height: 100%;
+    transition: transform .15s;
+}
+.card2 .card2-img:hover{
+    transform:scale(1.03);
+}
+.section2{
+    margin: .2em;
+}
+.card2 .heading{
+    font-size: 1em;
+    margin: 0 0 .2em 0;
+}
+.card2 .description{
+    font-size: .61em;
+    margin-bottom: .6em;
+}
+.footer2{
+    margin-left: .2em;
+}
+.footer2 .btn2{
+    padding: .5em .8em;
+    font-size: .7em;
+    border: none;
+    color: white;
+}
+.details{
+    background-color: rgb(45, 112, 160);
+}
+.contact-seller{
+    background-color: rgb(41, 136, 41);
+}
+.btn2:hover,.btn2:focus{
+    background-color: rgb(170, 145, 145);
+    color: rgb(32, 32, 32);
+}
+
+/* Card 3 */
+.chat-heading{
+    background-color: gray;
+    padding: .8em;
+    margin-bottom:.5em ;
+}
+.card3:hover{
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+    transition: .15s;
+}
+.btn3{
+    font-size: .7em;
+    padding: .5em 1em;
+    margin: 0 0 .2em .5em;
+    border: none;
+    border-radius: .2em;
+    font-size: .72em;
+}
+.btn3:hover{
+    background-color: rgb(149, 156, 174);
+    color: rgb(23, 23, 23);
+    
+}
+.response{
+background-color:rgb(190, 71, 50);
+color: white;
+}
+.not-intrested{
+    background-color:rgb(0, 214, 64);
+    color: white;
+}
+.chat-desc{
+    font-size: .67em;
+    padding: .5em;
+    line-break:anywhere;
+}
+.footer3{
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding:.5em;
+}
+.footer3-img{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 50%;
+    margin:0 .2em;
+    display: inline-block;
+}
+
+/* Card 4 */
+.card4:hover{
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+    transition: .15s;
+}
+.header4{
+    width: 100%;
+    height: 70px;
+    background-color: hwb(197 20% 31%);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: .3em;
+}
+.logo .bi-facebook{
+    width: 25px;
+    height: 25px;
+    color: blue;
+}
+span.profile-pic .profile-pic-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 2.8em 1em 0 0;
+}
+.side-number{
+    background-color: rgb(255, 57, 57);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: -.45em;
+    color: white;
+}
+.side-number p{
+    font-size: .8em;
+    text-align: center;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    margin: 1.5em 0 0 0;
+}
+.section4 .client-name{
+    text-align: center;
+}
+.section4 .client-desc{
+    font-size: .65em;
+    text-align: center;
+    margin-bottom: .2em;
+}
+.follow-us{
+    font-size: .8em;
+    color: rgb(111, 110, 110);
+    margin-bottom: .4em;
+    text-align: center;
+}
+.social-links{
+    display: flex;
+    justify-content:center;
+}
+.link-box{
+    margin: 0 .5em;
+}
